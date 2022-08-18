@@ -216,7 +216,7 @@ margin-top: 70%;
 }
 
 
-@media screen and (min-device-width: 1650px) and (min-device-height: 950px) {
+@media screen and (min-device-width: 950px) and (min-device-height: 1600px) and (orientation: landscape) {
   html, body{
     background-color: rgb(254,105,123);
     margin: 0px;
