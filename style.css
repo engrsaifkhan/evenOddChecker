@@ -1,5 +1,10 @@
 html,body{
   background-color: rgb(254,105,123);
+  margin: 0px;
+  padding:0px;
+  height:100%;
+  width: 100%;
+  overflow-y: hidden;
 }
 label:before{
   content: "*";
@@ -99,9 +104,11 @@ padding-bottom: 2%;
 @media screen and (max-width: 1000px) {
   html,body{
     background-color: rgb(254,105,123);
-    margin: 0%;
-    width:100%;
+    margin: 0px;
+    padding:0px;
     height:100%;
+    width: 100%;
+    overflow-y: hidden;
   }
   label:before{
     content: "*";
@@ -209,12 +216,14 @@ margin-top: 70%;
 }
 
 
-@media screen and (min-device-width: 1650px) and (min-device-height: 950px) and (orientation: landscape) {
-  html,body{
+@media screen and (min-device-width: 1650px) and (min-device-height: 950px) {
+  html, body{
     background-color: rgb(254,105,123);
-    margin: 0%;
-    width:100%;
+    margin: 0px;
+    padding:0px;
     height:100%;
+    width: 100%;
+    overflow-y: hidden;
   }
   label:before{
     content: "*";
